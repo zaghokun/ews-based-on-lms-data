@@ -74,14 +74,21 @@ This project was developed as a collaborative research effort by the Data Mining
     ```bash
     git clone [https://github.com/zaghokun/ews-based-on-lms-data.git](https://github.com/zaghokun/ews-based-on-lms-data.git)
     ```
-2.  **Install Requirements**
+2.  **Download Dataset**
+    The code uses OULAD data. Please ensure the dataset is placed in the root directory or update the path in the notebook.
+    * [Download Source (OULAD)](https://analyse.kmi.open.ac.uk/open-dataset)
+
+3.  **Install Requirements**
     ```bash
     pip install pandas numpy xgboost scikit-learn shap matplotlib seaborn
     ```
-3.  **Run the Notebook**
-    Open `EWS_Modeling_Pipeline.ipynb` (formerly DIMAS.ipynb) to see the step-by-step training process.
+4.  **Run the Notebook**
+    Open `EWS_Modeling_Pipeline.ipynb` to see the step-by-step training process.
 
 ---
 
-### 🛡️ Citation
+### 🛡️ Citation & License
+**Dataset:** Kuzilek J., Hlosta M., Zdrahal Z. Open University Learning Analytics dataset, 2017. [Link](https://analyse.kmi.open.ac.uk/open-dataset)
+
 If you use this code or research for your work, please cite our paper included in this repository.
+
